@@ -1,4 +1,4 @@
-# Nuerelo + Node + Socket.IO
+# Nuerelo + Node + Socket.IO + React (Vite)
 
 This project is a full-stack application that leverages the power of Nuerelo, Node.js, and Socket.IO to provide real-time, bi-directional communication between the client and the server.
 
