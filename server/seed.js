@@ -20,7 +20,7 @@ const connectDB = async () => {
         if (!client) {
             if (!MONGO_URI) throw 'mongodb url (MONGO_URI) missing, check your env file or dotenv installation'
             client = new MongoClient.connect( MONGO_URI, dbOptions )
-            if (!DB_NAME) 'database name (DB_NAME) missing, check your env file or dotenv installation'
+            if (!DB_NAME) throw 'database name (DB_NAME) missing, check your env file or dotenv installation'
             if (!connection) connection = await client.db( DB_NAME );
             return {success:true, message: 'connection successful'}
         }
