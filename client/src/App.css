@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  list-style-type: none;
+  user-select: none;
+  letter-spacing: 1.2px;
+  font-family: Bangers, sans-serif;
+}
+
+body::-webkit-scrollbar, .summary_all::-webkit-scrollbar {
+  background-color: transparent;
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-thumb, .summary_all::-webkit-scrollbar-thumb {
+  background-color: black;
+  width: 2rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 2em 2.5em 5em;
+    border-radius: 0.5rem;
+    box-shadow: 1rem 1rem 0.5rem rgba(0, 0, 0, 0.2),
+                -1rem -1rem 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.input-field {
+    width: 15rem;
+    padding: 0.5em 1em;
+}
+
+.summary span {
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.3rem;
+}
+
+.summary_all {
+    border: 0.1px solid rgba(0, 0, 0, 0.21);
+    padding: 1em;
+    max-height: 10rem;
+    overflow-y: auto;
+    border-radius: 0.5rem;
+}
+
+.summary_all p {
+    margin: 0.5rem 0;
+}

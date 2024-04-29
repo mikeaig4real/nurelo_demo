@@ -1,0 +1,26 @@
+{
+  "name": "neurelo_demo",
+  "version": "1.0.0",
+  "description": "A simple demo of using nuerelo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "neurelo"
+  ],
+  "author": "mikeaig4real",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.5.0",
+    "neurelo-sdk": "file:neurelo-sdk-typescript-cmt_894316.tgz",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/socket.io": "^3.0.2"
+  }
+}
