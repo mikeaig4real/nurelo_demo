@@ -62,3 +62,7 @@ To get started with this project, follow these steps:
 ## License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
+
+## Demo
+
+A Demo video for the app can be found [here](https://www.loom.com/share/ff02cfb854604e1aa6b7894426837285?sid=0450a84e-9d9c-4ec8-b1b6-793b272f9bce).
