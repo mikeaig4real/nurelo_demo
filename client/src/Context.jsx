@@ -107,6 +107,8 @@ const AppProvider = ( { children } ) =>
         {
             // @ts-ignore
             dispatch( { type: actions.SET_PEOPLE, payload: [] } );
+            // @ts-ignore
+            dispatch( { type: actions.SET_USE_PAGINATION, payload: false } );
             return;
         }
         // @ts-ignore
