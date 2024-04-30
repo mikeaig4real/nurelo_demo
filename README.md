@@ -54,8 +54,8 @@ Located in the [server](server) directory, this is a back-end application built 
 To get started with this project, follow these steps:
 
 1. Clone the repository.
-2. Install the dependencies in both the root, client and server directories using `npm install`, also make sure to download your sdk after step 4, place your sdk at the /server directory then run `npm i neurelo-sdk-typescript-xxx_xxxxxx`.
-3. Make sure you use the .env.example file to create a .env file in the server directory with the prescribed environment variables.
+2. Install the dependencies in both the root, client and server directories using `npm install`, also make sure to download your sdk after step 5, place your sdk at the /server directory then run `npm i neurelo-sdk-typescript-xxx_xxxxxx`.
+3. Make sure you use the .env.example file to create a .env file in the client and server directory with the prescribed environment variables.
 4. There is a `seed.js` file that helps you populate your database with some initial data. You can run this file using `node seed.js` in the server directory. The function `loadInitialData(emptyDB = false)` does the magic. If the `emptyDB` argument is true, it attempts to empty the database (which is false by default).
 5. After population, head over to [nuerelo.com](https://nuerelo.com) to register and configure sdk.
 6. Start both the client and server using `npm start` in the root directory.
